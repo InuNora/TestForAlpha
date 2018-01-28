@@ -36,7 +36,6 @@ public class DictonaryWithPriorityTest extends TestCase {
     public void testWordsLenghtByPriority() {
         DictonaryWithPriority myStructure = new DictonaryWithPriority(
                 "short shoooort shoort shooooooort shooooort shrt");
-
         assertEquals("[s=[shooooooort, shooooort, shoooort, shoort, short, shrt]]", myStructure.toString());
     }
 

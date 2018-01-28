@@ -16,6 +16,7 @@ import org.junit.runners.Suite;
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
         DictonaryWithPriorityTest.class,
+        DictonaryWithPriorityOnStreamTest.class
 })
 
 public class MainTest extends TestCase {
